@@ -1,0 +1,76 @@
+* {
+    font-family: 'Poppins';
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.title, .slogan {
+    width: 100%;
+    padding: 10px;
+    margin: 0px 15px;
+    text-align: center;
+}
+.title {
+    font-size: xx-large;
+}
+
+.slogan {
+    font-size: large;
+}
+
+.button {
+    padding: 7px;
+    border: none;
+    border-radius: 7px;
+    background-color: #5271ff;
+    color: white;
+    font-family: 'Poppins';
+    cursor: pointer;
+}
+
+.link {
+    color: #5271ff;
+    text-decoration: none;
+}
+
+.container-top-news {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px;
+    padding: 15px;
+    justify-content: center;
+}
+
+.container-top-news ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.container-news {
+    padding: 15px 25px;
+    width: 250px;
+    min-height: 75px;
+    height: fit-content;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(251, 251, 251);
+    box-shadow: 3px 4px 16px #c7c7c7;
+    border-radius: 7px;
+}
+
+.container-news h2 {
+    color: #434343;
+}
